@@ -1,0 +1,221 @@
+{
+  "extensionDescription": {
+    "message": "Web Video Downloader."
+  },
+  "appTitle": {
+    "message": "PP Video Downloader"
+  },
+  "rescan": {
+    "message": "Rescan"
+  },
+  "scanning": {
+    "message": "Scanning this page"
+  },
+  "pageUnsupported": {
+    "message": "This page cannot be accessed by the extension."
+  },
+  "cachedResults": {
+    "message": "Loaded scan results for this page"
+  },
+  "scanComplete": {
+    "message": "Scan complete"
+  },
+  "partialEpisodeScan": {
+    "message": "Read $SUCCESS$/$TOTAL$ episodes; $FAILED$ failed",
+    "placeholders": {
+      "success": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "failed": {
+        "content": "$3"
+      }
+    }
+  },
+  "noDirectVideos": {
+    "message": "No directly downloadable videos found"
+  },
+  "videoCount": {
+    "message": "$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videoName": {
+    "message": "Video $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "scanFailed": {
+    "message": "Scan failed"
+  },
+  "cannotReadPage": {
+    "message": "Cannot read this page"
+  },
+  "openRegularPage": {
+    "message": "Open a regular webpage and scan again."
+  },
+  "videoListLabel": {
+    "message": "Downloadable videos"
+  },
+  "noVideosYet": {
+    "message": "No videos found yet"
+  },
+  "playThenRescan": {
+    "message": "Play a video on the page, then select Rescan."
+  },
+  "videoPreview": {
+    "message": "Video preview"
+  },
+  "unknownSize": {
+    "message": "Size unknown"
+  },
+  "estimatedSize": {
+    "message": "About $SIZE$",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownQuality": {
+    "message": "Quality unknown"
+  },
+  "unknownResolution": {
+    "message": "Unknown quality"
+  },
+  "unknownBitrate": {
+    "message": "Bitrate unknown"
+  },
+  "estimatedBitrate": {
+    "message": "About $BITRATE$",
+    "placeholders": {
+      "bitrate": {
+        "content": "$1"
+      }
+    }
+  },
+  "qualityWithBitrate": {
+    "message": "$RESOLUTION$ · $BITRATE$",
+    "placeholders": {
+      "resolution": {
+        "content": "$1"
+      },
+      "bitrate": {
+        "content": "$2"
+      }
+    }
+  },
+  "selectQuality": {
+    "message": "Select video quality"
+  },
+  "download": {
+    "message": "Download"
+  },
+  "canceling": {
+    "message": "Canceling"
+  },
+  "cancellingDownload": {
+    "message": "Canceling download"
+  },
+  "cannotCancelDownload": {
+    "message": "Cannot cancel download"
+  },
+  "cannotConnectCancel": {
+    "message": "Cannot connect to the background to cancel the download"
+  },
+  "starting": {
+    "message": "Starting"
+  },
+  "authorizing": {
+    "message": "Authorizing"
+  },
+  "allowCdnAccess": {
+    "message": "Allow access to the video CDN to merge this video."
+  },
+  "invalidPlaylistUrl": {
+    "message": "Invalid HLS playlist URL"
+  },
+  "unavailablePlaylistUrl": {
+    "message": "HLS playlist URL is unavailable"
+  },
+  "cannotStartDownload": {
+    "message": "Cannot start download"
+  },
+  "failed": {
+    "message": "Failed"
+  },
+  "downloadingDoNotLeave": {
+    "message": "Downloading. Do not leave this page."
+  },
+  "queued": {
+    "message": "Queued"
+  },
+  "readingSegments": {
+    "message": "Reading segments $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "readingSegmentsShort": {
+    "message": "Reading segments"
+  },
+  "muxingVideo": {
+    "message": "Muxing video"
+  },
+  "submittingDownload": {
+    "message": "Preparing download"
+  },
+  "downloading": {
+    "message": "Downloading"
+  },
+  "processing": {
+    "message": "Processing"
+  },
+  "retrying": {
+    "message": "Temporary error; waiting to retry"
+  },
+  "cancelWithProgress": {
+    "message": "Cancel$PROGRESS$",
+    "placeholders": {
+      "progress": {
+        "content": "$1"
+      }
+    }
+  },
+  "clickToCancel": {
+    "message": "$STATUS$$PROGRESS$, click to cancel",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      },
+      "progress": {
+        "content": "$2"
+      }
+    }
+  },
+  "completed": {
+    "message": "Complete"
+  },
+  "unknownDuration": {
+    "message": "Duration unknown"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "closeFloatingPanel": {
+    "message": "Close video downloader panel"
+  }
+}

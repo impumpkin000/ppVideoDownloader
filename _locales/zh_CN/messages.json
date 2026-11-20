@@ -1,0 +1,221 @@
+{
+  "extensionDescription": {
+    "message": "网页视频下载器。"
+  },
+  "appTitle": {
+    "message": "PP 视频下载器"
+  },
+  "rescan": {
+    "message": "重新扫描"
+  },
+  "scanning": {
+    "message": "正在扫描当前页面"
+  },
+  "pageUnsupported": {
+    "message": "此页面不允许扩展读取。"
+  },
+  "cachedResults": {
+    "message": "已加载本页扫描结果"
+  },
+  "scanComplete": {
+    "message": "扫描完成"
+  },
+  "partialEpisodeScan": {
+    "message": "已读取 $SUCCESS$/$TOTAL$ 个选集，$FAILED$ 个失败",
+    "placeholders": {
+      "success": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "failed": {
+        "content": "$3"
+      }
+    }
+  },
+  "noDirectVideos": {
+    "message": "未发现可直接下载的视频"
+  },
+  "videoCount": {
+    "message": "$COUNT$ 个",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videoName": {
+    "message": "视频 $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "scanFailed": {
+    "message": "扫描失败"
+  },
+  "cannotReadPage": {
+    "message": "无法读取此页面"
+  },
+  "openRegularPage": {
+    "message": "请打开普通网页后重新扫描。"
+  },
+  "videoListLabel": {
+    "message": "可下载视频"
+  },
+  "noVideosYet": {
+    "message": "暂未发现视频"
+  },
+  "playThenRescan": {
+    "message": "播放页面中的视频后，再点重新扫描。"
+  },
+  "videoPreview": {
+    "message": "视频封面预览"
+  },
+  "unknownSize": {
+    "message": "大小未知"
+  },
+  "estimatedSize": {
+    "message": "约 $SIZE$",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownQuality": {
+    "message": "画质未知"
+  },
+  "unknownResolution": {
+    "message": "未知画质"
+  },
+  "unknownBitrate": {
+    "message": "码率未知"
+  },
+  "estimatedBitrate": {
+    "message": "约 $BITRATE$",
+    "placeholders": {
+      "bitrate": {
+        "content": "$1"
+      }
+    }
+  },
+  "qualityWithBitrate": {
+    "message": "$RESOLUTION$ · $BITRATE$",
+    "placeholders": {
+      "resolution": {
+        "content": "$1"
+      },
+      "bitrate": {
+        "content": "$2"
+      }
+    }
+  },
+  "selectQuality": {
+    "message": "选择视频画质"
+  },
+  "download": {
+    "message": "下载"
+  },
+  "canceling": {
+    "message": "取消中"
+  },
+  "cancellingDownload": {
+    "message": "正在取消下载"
+  },
+  "cannotCancelDownload": {
+    "message": "无法取消下载"
+  },
+  "cannotConnectCancel": {
+    "message": "无法连接后台取消下载"
+  },
+  "starting": {
+    "message": "开始中"
+  },
+  "authorizing": {
+    "message": "授权中"
+  },
+  "allowCdnAccess": {
+    "message": "需要允许访问视频 CDN 才能合并下载该视频。"
+  },
+  "invalidPlaylistUrl": {
+    "message": "HLS 清单地址无效"
+  },
+  "unavailablePlaylistUrl": {
+    "message": "HLS 清单地址不可用"
+  },
+  "cannotStartDownload": {
+    "message": "无法开始下载"
+  },
+  "failed": {
+    "message": "失败"
+  },
+  "downloadingDoNotLeave": {
+    "message": "正在下载，请勿离开当前页面"
+  },
+  "queued": {
+    "message": "排队中"
+  },
+  "readingSegments": {
+    "message": "读取分片 $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "readingSegmentsShort": {
+    "message": "读取分片"
+  },
+  "muxingVideo": {
+    "message": "封装视频"
+  },
+  "submittingDownload": {
+    "message": "提交下载"
+  },
+  "downloading": {
+    "message": "下载中"
+  },
+  "processing": {
+    "message": "处理中"
+  },
+  "retrying": {
+    "message": "遇到临时错误，正在等待重试"
+  },
+  "cancelWithProgress": {
+    "message": "取消$PROGRESS$",
+    "placeholders": {
+      "progress": {
+        "content": "$1"
+      }
+    }
+  },
+  "clickToCancel": {
+    "message": "$STATUS$$PROGRESS$，点击取消",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      },
+      "progress": {
+        "content": "$2"
+      }
+    }
+  },
+  "completed": {
+    "message": "已完成"
+  },
+  "unknownDuration": {
+    "message": "时长未知"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "closeFloatingPanel": {
+    "message": "关闭浮动面板"
+  }
+}

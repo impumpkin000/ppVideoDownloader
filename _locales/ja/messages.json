@@ -1,0 +1,207 @@
+{
+  "extensionDescription": {
+    "message": "ウェブ動画ダウンローダー。"
+  },
+  "appTitle": {
+    "message": "PP 動画ダウンローダー"
+  },
+  "rescan": {
+    "message": "再スキャン"
+  },
+  "scanning": {
+    "message": "ページをスキャン中"
+  },
+  "pageUnsupported": {
+    "message": "このページには拡張機能からアクセスできません。"
+  },
+  "cachedResults": {
+    "message": "このページのスキャン結果を読み込みました"
+  },
+  "scanComplete": {
+    "message": "スキャン完了"
+  },
+  "noDirectVideos": {
+    "message": "直接ダウンロードできる動画が見つかりません"
+  },
+  "videoCount": {
+    "message": "$COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videoName": {
+    "message": "動画 $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "scanFailed": {
+    "message": "スキャンに失敗しました"
+  },
+  "cannotReadPage": {
+    "message": "このページを読み取れません"
+  },
+  "openRegularPage": {
+    "message": "通常のウェブページを開いて、もう一度スキャンしてください。"
+  },
+  "videoListLabel": {
+    "message": "ダウンロード可能な動画"
+  },
+  "noVideosYet": {
+    "message": "動画が見つかりません"
+  },
+  "playThenRescan": {
+    "message": "ページ上の動画を再生してから、再スキャンしてください。"
+  },
+  "videoPreview": {
+    "message": "動画プレビュー"
+  },
+  "unknownSize": {
+    "message": "サイズ不明"
+  },
+  "estimatedSize": {
+    "message": "約 $SIZE$",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownQuality": {
+    "message": "画質不明"
+  },
+  "unknownResolution": {
+    "message": "画質不明"
+  },
+  "unknownBitrate": {
+    "message": "ビットレート不明"
+  },
+  "estimatedBitrate": {
+    "message": "約 $BITRATE$",
+    "placeholders": {
+      "bitrate": {
+        "content": "$1"
+      }
+    }
+  },
+  "qualityWithBitrate": {
+    "message": "$RESOLUTION$ · $BITRATE$",
+    "placeholders": {
+      "resolution": {
+        "content": "$1"
+      },
+      "bitrate": {
+        "content": "$2"
+      }
+    }
+  },
+  "selectQuality": {
+    "message": "動画の画質を選択"
+  },
+  "download": {
+    "message": "ダウンロード"
+  },
+  "canceling": {
+    "message": "キャンセル中"
+  },
+  "cancellingDownload": {
+    "message": "ダウンロードをキャンセル中"
+  },
+  "cannotCancelDownload": {
+    "message": "ダウンロードをキャンセルできません"
+  },
+  "cannotConnectCancel": {
+    "message": "バックグラウンドに接続できず、ダウンロードをキャンセルできません"
+  },
+  "starting": {
+    "message": "開始中"
+  },
+  "authorizing": {
+    "message": "許可を確認中"
+  },
+  "allowCdnAccess": {
+    "message": "動画を結合するには、動画 CDN へのアクセスを許可してください。"
+  },
+  "invalidPlaylistUrl": {
+    "message": "HLS プレイリストの URL が無効です"
+  },
+  "unavailablePlaylistUrl": {
+    "message": "HLS プレイリストの URL を利用できません"
+  },
+  "cannotStartDownload": {
+    "message": "ダウンロードを開始できません"
+  },
+  "failed": {
+    "message": "失敗"
+  },
+  "downloadingDoNotLeave": {
+    "message": "ダウンロード中です。このページを離れないでください。"
+  },
+  "queued": {
+    "message": "待機中"
+  },
+  "readingSegments": {
+    "message": "セグメントを読み込み中 $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "readingSegmentsShort": {
+    "message": "セグメントを読み込み中"
+  },
+  "muxingVideo": {
+    "message": "動画を多重化中"
+  },
+  "submittingDownload": {
+    "message": "ダウンロードを準備中"
+  },
+  "downloading": {
+    "message": "ダウンロード中"
+  },
+  "processing": {
+    "message": "処理中"
+  },
+  "retrying": {
+    "message": "一時的なエラーが発生したため、再試行を待っています"
+  },
+  "cancelWithProgress": {
+    "message": "キャンセル$PROGRESS$",
+    "placeholders": {
+      "progress": {
+        "content": "$1"
+      }
+    }
+  },
+  "clickToCancel": {
+    "message": "$STATUS$$PROGRESS$、クリックしてキャンセル",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      },
+      "progress": {
+        "content": "$2"
+      }
+    }
+  },
+  "completed": {
+    "message": "完了"
+  },
+  "unknownDuration": {
+    "message": "時間不明"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "closeFloatingPanel": {
+    "message": "動画ダウンローダーパネルを閉じる"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "minimum_chrome_version": "111",
+  "name": "__MSG_appTitle__",
+  "short_name": "PP Video Downloader",
+  "default_locale": "en",
+  "version": "1.0.1",
+  "description": "__MSG_extensionDescription__",
+  "permissions": ["activeTab", "scripting", "downloads", "storage", "offscreen", "alarms", "declarativeNetRequestWithHostAccess", "webNavigation"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["video-sniffer.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "action": {
+    "default_title": "__MSG_appTitle__"
+  }
+}
